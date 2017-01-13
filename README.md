@@ -1,9 +1,9 @@
 # FCC Tic Tac Toe
-A simple tic-tac-toe game using
+A simple tic-tac-toe game (unbeatable too!).
 
 ## Getting Started
 
-<!-- [Live Demo](https://night-app-life-app-fcc.herokuapp.com/) -->
+[Live Demo](http://kenzomendoza.com/TicTacToe/app/)
 
 The app is based on one of [FreeCodeCamp's challenges](https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game).
 
