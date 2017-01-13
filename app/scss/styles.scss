@@ -1,0 +1,68 @@
+body{
+  background: skyblue;
+}
+
+#tictactoe{
+  max-width: 700px;
+  min-height: 300px;
+  margin: 68px auto;
+  display: flex;
+  width: 100%;
+  table{
+    width: 100%;
+    font-size: 65px;
+    text-align: center;
+    vertical-align: middle;
+    table-layout: fixed;
+  }
+}
+
+td{
+  height: 115px;
+  color: #101935;
+  background: #F2FDFF;
+  border: 5px solid #DBCBD8;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.5s ease-out, color 0.5s ease-out;
+  &:hover{
+    background: #564787;
+    color: #F2FDFF;
+  }
+}
+
+.modal-dialog{
+  text-align: center;
+  .modal-footer{
+    text-align: center;
+  }
+}
+
+#info{
+}
+
+// #alertBox{
+//   display: table;
+//   width: 50%;
+//   height: 100px;
+//   text-align: center;
+//   p{
+//     text-align: center;
+//     vertical-align: middle;
+//     display: table-cell;
+//     border: solid black 2px;
+//     color: black;
+//   }
+// }
+// #restart{
+//   text-align: center;
+//   #restartBtn{
+//     background-color: #564787;
+//     // border-color: #564787;
+//     margin: auto;
+//     transition: background-color 0.2s ease-in;
+//     &:hover{
+//       background-color: deepskyblue;
+//     }
+//   }
+// }

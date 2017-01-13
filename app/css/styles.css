@@ -1,0 +1,32 @@
+body {
+  background: skyblue; }
+
+#tictactoe {
+  max-width: 700px;
+  min-height: 300px;
+  margin: 68px auto;
+  display: flex;
+  width: 100%; }
+  #tictactoe table {
+    width: 100%;
+    font-size: 65px;
+    text-align: center;
+    vertical-align: middle;
+    table-layout: fixed; }
+
+td {
+  height: 115px;
+  color: #101935;
+  background: #F2FDFF;
+  border: 5px solid #DBCBD8;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.5s ease-out, color 0.5s ease-out; }
+  td:hover {
+    background: #564787;
+    color: #F2FDFF; }
+
+.modal-dialog {
+  text-align: center; }
+  .modal-dialog .modal-footer {
+    text-align: center; }
